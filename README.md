@@ -101,7 +101,7 @@ maintenance and allows for more easy customization.
    the stage that installs all of the things that make Raspbian friendly to
    new users.
    
-   **Stage 5** - homebridge system. 
+ - **Stage 5** - homebridge system. 
    Install `node.js`, `homebridge`, `homebridge-mqtt`, `homebridge-aqara`
    and required packages like mqtt flow management platform Node-Red, mqtt server Mosquitto
    
@@ -110,9 +110,9 @@ maintenance and allows for more easy customization.
    * https://github.com/nfarina/homebridge
    * https://github.com/snOOrz/homebridge-aqara
    * https://github.com/cflurin/homebridge-mqtt
-   * http://nodered.org/
+   * http://nodered.org/
    * https://github.com/cflurin/homebridge-mqtt/wiki/Mosquitto
-   
+
 ### Stage specification
 If you wish to build up to a specified stage (such as building up to stage 2 for a lite system), place an empty file named `SKIP` in each of the `./stage` directories you wish not to include.
 
